@@ -23,8 +23,11 @@
     paragraph otherwise (that is what broke the layout on 2026-11-24).
   - SYSTEMS: one line per project with a status glyph.
     ● live/active · ◐ in progress · ○ paused
-  - LOADOUT: one skillicons.dev image. Learning something new? Add its
-    icon code to the list in the URL.
+  - LOADOUT: one skillicons.dev image — ONLY what he actually uses:
+    C, Python (barely, his own words), JavaScript, HTML, CSS. Never add
+    a language he does not know. His projects' stacks (Node, MySQL,
+    Docker, Java, Dart/Flutter) live in HANGAR as project facts, not
+    here as skills.
   - TELEMETRY: live stats, tucked in a <details> so the theme leads.
   - HANGAR: one line per project — name, one sentence, a status tag.
   - LOGBOOK: a pre-filled issue link. Visitors sign it; no automation.
@@ -80,7 +83,7 @@ Senior support & billing specialist who builds the things he uses — a store, a
 <!-- MODULE: LOADOUT -->
 ## LOADOUT
 
-[![Stack](https://skillicons.dev/icons?i=js,nodejs,java,python,html,css,mysql,express,dart,flutter,docker,linux,git&theme=dark)](https://skillicons.dev)
+[![Stack](https://skillicons.dev/icons?i=c,py,js,html,css&theme=dark)](https://skillicons.dev)
 
 ---
 
