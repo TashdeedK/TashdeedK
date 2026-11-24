@@ -4,23 +4,28 @@
   README shows at the top of github.com/TashdeedK).
 
   HOW THIS STAYS FRESH — it is built in blocks, so you never rewrite it:
-  - BANNER / TYPING / STATS / STREAK / GRAPH / SNAKE: live images. They
-    recompute from your real GitHub activity every time someone opens your
-    profile. Never edit them. (The snake is drawn by a GitHub Action — see
-    .github/workflows/snake.yml — it redraws itself every day.)
+  - BANNER / TYPING / STATS / STREAK / GRAPH: live images. They recompute
+    from your real GitHub activity every time someone opens your profile.
+    Never edit them.
+  - DOSSIER: one row per fact. Add a row, change a value.
+  - QUEST LOG: one checkbox line per thing you're working on. Tick it off
+    when it's done, add a line when something new starts.
   - TECH STACK: one badge per line. Learning something new? Add one badge line.
-  - PROJECTS: one block per project. New project? Copy a block, change the lines.
-  - ABOUT / SOCIALS: plain text lines, edit in place.
+  - HANGAR: one table row per project. New project? Add a row.
   - No emojis anywhere in this file.
+  - The contribution snake lives in .github/workflows/snake.yml — it is NOT
+    in this README yet, because the file has to be added by hand (the Muse
+    GitHub App cannot write workflow files). When it lands, add the snake
+    image block back under the graph.
 -->
 
 <!-- MODULE: BANNER -->
-![Kazi Tashdeed](https://capsule-render.vercel.app/api?type=waving&color=8C2323&height=200&section=header&text=Kazi%20Tashdeed&fontSize=60&fontColor=F6F1E9&desc=Exia%20pilot%20%C2%B7%20I%20help%20people.%20That%27s%20the%20job.&descSize=20&descColor=F6F1E9&descAlignY=75)
+![Kazi Tashdeed](https://capsule-render.vercel.app/api?type=waving&color=8C2323&height=200&section=header&text=Kazi%20Tashdeed&fontSize=60&fontColor=F6F1E9&desc=I%20help%20people.%20That%27s%20the%20job.&descSize=20&descColor=F6F1E9&descAlignY=75)
 
 <!-- MODULE: TYPING -->
 <div align="center">
 
-![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=C81E1E&center=true&vCenter=true&width=600&lines=Senior+Support+%26+Billing+Specialist;Co-founder+%40+Tsumira;Minecraft+Bot+Builder;Gundam+fan+%E2%80%94+Exia+%C2%B7+Barbatos+%C2%B7+Aerial;Home+Lab+Tinkerer)
+![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=C81E1E&center=true&vCenter=true&width=600&lines=Senior+Support+%26+Billing+Specialist;Co-founder+%40+Tsumira;Minecraft+Bot+Builder;Home+Lab+Tinkerer)
 
 <!-- MODULE: SOCIALS -->
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/tashdeed_janai_)
@@ -28,37 +33,34 @@
 ![Discord](https://img.shields.io/badge/Discord-tashdeedk-5865F2?style=for-the-badge&logo=discord&logoColor=white)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:oheekazi@gmail.com)
 
+Senior support & billing specialist who builds the things he uses — a store, a bot, a plugin, a server, an app.
+
 </div>
 
 ---
 
-<!-- MODULE: ABOUT -->
-## About Me
+<!-- MODULE: DOSSIER -->
+## Pilot Dossier
 
-```js
-const tash = {
-  role: "Senior Support & Billing Specialist",
-  company: "Gravel Host",
-  venture: "Co-founder @ Tsumira Fine Jewellery",
-  study: "BCSE @ IUBAT",
-  builds: [
-    "Segs — Minecraft bot",
-    "mcfy — Paper plugin",
-    "OrewaServer — home lab",
-    "Little Moments — Flutter app"
-  ],
-  mobileSuits: ["Exia", "Barbatos", "Aerial Rebuild", "Wing", "Seed"],
-  languages: ["English", "Bangla", "Hindi", "Urdu"]
-};
-```
+| Spec | Detail |
+| --- | --- |
+| **Callsign** | OrewaSegs |
+| **Role** | Senior Support & Billing Specialist |
+| **Faction** | Gravel Host |
+| **Venture** | Co-founder — Tsumira Fine Jewellery |
+| **Study** | BCSE — IUBAT |
+| **Base** | Dhaka, Bangladesh |
+| **Learning** | Java · Flutter / Dart |
+| **Languages** | English · Bangla · Hindi · Urdu |
 
-- Senior Support & Billing Specialist at **Gravel Host**
-- Co-founder of **Tsumira Fine Jewellery** — e-commerce for Bangladesh (COD, BDT)
-- BCSE student at **IUBAT**
-- I build things I actually use: a Minecraft bot, a Paper plugin, a home Minecraft server, a Flutter app
+<!-- MODULE: QUEST LOG -->
+## Quest Log
 
-**Currently working on:** Tsumira · Segs · Little Moments
-**Currently learning:** Java · Flutter / Dart
+- [x] Tsumira — live at tsumira.shop
+- [x] Segs — v10.7.2 running on OrewaServer
+- [ ] Little Moments — Slice 2 pushed, in testing
+- [x] mcfy — paused, handover written
+- [x] Portfolio v2 — Figma frontend complete
 
 ---
 
@@ -97,38 +99,16 @@ const tash = {
 
 ---
 
-<!-- MODULE: PROJECTS — one block per project, copy a block to add one -->
-## Hangar — What I'm Building
+<!-- MODULE: HANGAR — one table row per project -->
+## Hangar
 
-### Tsumira Fine Jewellery — [tsumira.shop](https://tsumira.shop)
-Fine jewellery e-commerce for Bangladesh. COD-only, BDT, free shipping over ৳1,049. I run the site and fund it; my friends handle buying and selling.
-`Node.js` `Express` `EJS` `MySQL`
-
-### Segs — Minecraft Bot — [Segs-Minecraft-Bot](https://github.com/TashdeedK/Segs-Minecraft-Bot)
-Mineflayer bot for Minecraft 26.3. Sorts a 16-column storage unit on its own, builds from schematics block by block, auto-accepts teleports, recovers its own grave after dying.
-`Node.js` `Mineflayer`
-
-### mcfy — Spotify Soundbox
-Paper / Purpur plugin that brings Spotify-style music to a Minecraft server — speakers you carry, place, and control in game. On pause after the facing fix, with a full handover for a friend to continue.
-`Java` `Paper API`
-
-### Little Moments
-Private, invite-only shared-memories Android app for a close friend group. I design and build the app; the website runs on a friend's VPS.
-`Flutter` `Dart`
-
-### OrewaServer — Home Lab
-Paper 26.3 home server on my own machine — spawn built and blended, world pre-generated, WorldGuard regions, 2-hourly backups, Tailscale so friends can join.
-`Docker` `PufferPanel` `Linux` `Tailscale`
-
----
-
-<!-- MODULE: SNAKE — drawn by .github/workflows/snake.yml, redraws daily.
-     It shows up after the first Action run, which starts when this is pushed. -->
-<div align="center">
-
-![Contribution snake](https://raw.githubusercontent.com/TashdeedK/TashdeedK/output/github-snake-dark.svg)
-
-</div>
+| Project | What it is | Stack | Status |
+| --- | --- | --- | --- |
+| **Tsumira** | Fine jewellery e-commerce — COD, Bangladesh | Node · Express · MySQL | Live — [tsumira.shop](https://tsumira.shop) |
+| **Segs** | Mineflayer bot — sorts storage, builds schematics | Node · Mineflayer | Active — [repo](https://github.com/TashdeedK/Segs-Minecraft-Bot) |
+| **mcfy** | Spotify Soundbox plugin for Paper | Java | Paused |
+| **Little Moments** | Private memories app for friends | Flutter | In testing |
+| **OrewaServer** | Home Paper 26.3 server | Docker · Tailscale | Live |
 
 ---
 
