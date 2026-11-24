@@ -7,6 +7,12 @@
   The Gundam flavour is in the vocabulary (callsign, systems, hangar,
   signal, status readouts), the mono type, the red-on-dark palette, and
   the motion. No unit names anywhere.
+  FRAMING — honest and grounded, never oversold:
+  - The bot is never named on this profile. It is "a Minecraft bot",
+    a personal hobby, maybe public later.
+  - mcfy is the one public-facing build. Little Moments is a closed
+    hobby project. OrewaServer is hobby hosting. Most things here are
+    personal — he has not taken on a big project or initiative yet.
 
   HOW THIS STAYS FRESH — it is built in blocks, so you never rewrite it:
   - BANNER / TYPING / STATS / STREAK / GRAPH: live images. They recompute
@@ -62,10 +68,10 @@ Senior support & billing specialist who builds the things he uses — a store, a
 ## SYSTEMS
 
 ● **Tsumira** — LIVE · [tsumira.shop](https://tsumira.shop)
-● **Segs** — v10.7.2 · ACTIVE
+● **Minecraft bot** — v10.7.2 · HOBBY
 ● **mcfy** — v0.9.0 · LIVE
-◐ **Little Moments** — Slice 2 · IN TESTING
-● **OrewaServer** — LIVE
+◐ **Little Moments** — Slice 2 · CLOSED HOBBY
+● **OrewaServer** — LIVE · HOBBY
 
 ---
 
@@ -103,13 +109,13 @@ Senior support & billing specialist who builds the things he uses — a store, a
 
 **Tsumira** — fine jewellery e-commerce, COD across Bangladesh. `LIVE` — [tsumira.shop](https://tsumira.shop)
 
-**Segs** — Mineflayer bot that sorts storage and builds schematics on its own. `ACTIVE` — [repo](https://github.com/TashdeedK/Segs-Minecraft-Bot)
+**Minecraft bot** — a Mineflayer bot I'm building for myself; sorts storage and builds schematics. `HOBBY` — [repo](https://github.com/TashdeedK/Segs-Minecraft-Bot)
 
-**mcfy** — Spotify Soundbox plugin + companion mod for Paper; speakers you carry, place, and control in game. `LIVE`
+**mcfy** — Spotify Soundbox plugin + companion mod for Paper; speakers you carry, place, and control in game. Built to share. `LIVE`
 
-**Little Moments** — private memories app for my close friends. `IN TESTING`
+**Little Moments** — private memories app for my close friends. `CLOSED · HOBBY`
 
-**OrewaServer** — home Paper 26.3 server, Docker + Tailscale. `LIVE`
+**OrewaServer** — my own home server, Docker + Tailscale. `HOBBY HOSTING`
 
 ---
 
