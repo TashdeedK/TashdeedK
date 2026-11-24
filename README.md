@@ -3,15 +3,23 @@
   Lives in: TashdeedK/TashdeedK (this repo IS the profile — anything in this
   README shows at the top of github.com/TashdeedK).
 
+  PREMISE: the profile reads as a machine interface — a pilot's HUD.
+  The Gundam flavour is in the vocabulary (callsign, systems, hangar,
+  signal, status readouts), the mono type, the red-on-dark palette, and
+  the motion. No unit names anywhere.
+
   HOW THIS STAYS FRESH — it is built in blocks, so you never rewrite it:
   - BANNER / TYPING / STATS / STREAK / GRAPH: live images. They recompute
     from your real GitHub activity every time someone opens your profile.
     Never edit them.
-  - DOSSIER: one row per fact. Add a row, change a value.
-  - QUEST LOG: one checkbox line per thing you're working on. Tick it off
-    when it's done, add a line when something new starts.
-  - TECH STACK: one badge per line. Learning something new? Add one badge line.
-  - HANGAR: one table row per project. New project? Add a row.
+  - STATUS: one bold-label line per fact. Add a line, change a value.
+  - SYSTEMS: one line per project with a status glyph.
+    ● live/active · ◐ in progress · ○ paused
+  - LOADOUT: one skillicons.dev image. Learning something new? Add its
+    icon code to the list in the URL.
+  - TELEMETRY: live stats, tucked in a <details> so the theme leads.
+  - HANGAR: one line per project — name, one sentence, a status tag.
+  - LOGBOOK: a pre-filled issue link. Visitors sign it; no automation.
   - No emojis anywhere in this file.
   - The contribution snake lives in .github/workflows/snake.yml — it is NOT
     in this README yet, because the file has to be added by hand (the Muse
@@ -25,7 +33,7 @@
 <!-- MODULE: TYPING -->
 <div align="center">
 
-![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=C81E1E&center=true&vCenter=true&width=600&lines=Senior+Support+%26+Billing+Specialist;Co-founder+%40+Tsumira;Minecraft+Bot+Builder;Home+Lab+Tinkerer)
+![Typing](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=C81E1E&center=true&vCenter=true&width=600&lines=%3E+Senior+Support+%26+Billing+Specialist;%3E+Co-founder+%40+Tsumira;%3E+Minecraft+Bot+Builder;%3E+Home+Lab+Tinkerer)
 
 <!-- MODULE: SOCIALS -->
 [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/tashdeed_janai_)
@@ -39,52 +47,38 @@ Senior support & billing specialist who builds the things he uses — a store, a
 
 ---
 
-<!-- MODULE: DOSSIER -->
-## Pilot Dossier
+<!-- MODULE: STATUS -->
+## STATUS
 
-| Spec | Detail |
-| --- | --- |
-| **Callsign** | OrewaSegs |
-| **Role** | Senior Support & Billing Specialist |
-| **Faction** | Gravel Host |
-| **Venture** | Co-founder — Tsumira Fine Jewellery |
-| **Study** | BCSE — IUBAT |
-| **Base** | Dhaka, Bangladesh |
-| **Learning** | Java · Flutter / Dart |
-| **Languages** | English · Bangla · Hindi · Urdu |
+**CALLSIGN** — OrewaSegs
+**ROLE** — Senior Support & Billing Specialist · Gravel Host
+**VENTURE** — Co-founder · Tsumira Fine Jewellery
+**STUDY** — BCSE · IUBAT
+**BASE** — Dhaka, Bangladesh
+**LEARNING** — Java · Flutter / Dart
+**LANGUAGES** — English · Bangla · Hindi · Urdu
 
-<!-- MODULE: QUEST LOG -->
-## Quest Log
+<!-- MODULE: SYSTEMS -->
+## SYSTEMS
 
-- [x] Tsumira — live at tsumira.shop
-- [x] Segs — v10.7.2 running on OrewaServer
-- [ ] Little Moments — Slice 2 pushed, in testing
-- [x] mcfy — live and working well
-- [x] Portfolio v2 — Figma frontend complete
+● **Tsumira** — LIVE · [tsumira.shop](https://tsumira.shop)
+● **Segs** — v10.7.2 · ACTIVE
+● **mcfy** — v0.9.0 · LIVE
+◐ **Little Moments** — Slice 2 · IN TESTING
+● **OrewaServer** — LIVE
 
 ---
 
-<!-- MODULE: TECH STACK -->
-## Tech Stack
+<!-- MODULE: LOADOUT -->
+## LOADOUT
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+[![Stack](https://skillicons.dev/icons?i=js,nodejs,java,python,html,css,mysql,express,dart,flutter,docker,linux,git&theme=dark)](https://skillicons.dev)
 
 ---
 
-<!-- MODULE: STATS — live images, they update themselves -->
-## GitHub Stats
+<!-- MODULE: TELEMETRY — live images, tucked away so the theme leads -->
+<details>
+<summary>TELEMETRY</summary>
 
 <div align="center">
 
@@ -93,27 +87,43 @@ Senior support & billing specialist who builds the things he uses — a store, a
 
 ![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=TashdeedK&layout=compact&langs_count=8&bg_color=171010&title_color=C81E1E&text_color=F6F1E9&border_color=8C2323)
 
-![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=TashdeedK&bg_color=171010&color=F6F1E9&line=C81E1E&point=D9A441&area=true&hide_border=true)
-
 </div>
+
+</details>
+
+<!-- MODULE: SIGNAL -->
+## SIGNAL
+
+![Contribution Graph](https://github-readme-activity-graph.vercel.app/graph?username=TashdeedK&bg_color=171010&color=F6F1E9&line=C81E1E&point=D9A441&area=true&hide_border=true)
 
 ---
 
-<!-- MODULE: HANGAR — one table row per project -->
-## Hangar
+<!-- MODULE: HANGAR — one line per project -->
+## HANGAR
 
-| Project | What it is | Stack | Status |
-| --- | --- | --- | --- |
-| **Tsumira** | Fine jewellery e-commerce — COD, Bangladesh | Node · Express · MySQL | Live — [tsumira.shop](https://tsumira.shop) |
-| **Segs** | Mineflayer bot — sorts storage, builds schematics | Node · Mineflayer | Active — [repo](https://github.com/TashdeedK/Segs-Minecraft-Bot) |
-| **mcfy** | Spotify Soundbox plugin + companion mod for Paper | Java | Live |
-| **Little Moments** | Private memories app for friends | Flutter | In testing |
-| **OrewaServer** | Home Paper 26.3 server | Docker · Tailscale | Live |
+**Tsumira** — fine jewellery e-commerce, COD across Bangladesh. `LIVE` — [tsumira.shop](https://tsumira.shop)
+
+**Segs** — Mineflayer bot that sorts storage and builds schematics on its own. `ACTIVE` — [repo](https://github.com/TashdeedK/Segs-Minecraft-Bot)
+
+**mcfy** — Spotify Soundbox plugin + companion mod for Paper; speakers you carry, place, and control in game. `LIVE`
+
+**Little Moments** — private memories app for my close friends. `IN TESTING`
+
+**OrewaServer** — home Paper 26.3 server, Docker + Tailscale. `LIVE`
+
+---
+
+<!-- MODULE: LOGBOOK -->
+## LOGBOOK
+
+Found this profile somewhere? Leave a mark — [sign the logbook](https://github.com/TashdeedK/TashdeedK/issues/new?title=Logbook%20sign-in&body=Say%20hi%20%E2%80%94%20where%20did%20you%20find%20this%20profile%3F).
 
 ---
 
 <div align="center">
 
 *"OnlyPajn — life is about pain. Deal with it and keep up."*
+
+Work with me — oheekazi@gmail.com
 
 </div>
