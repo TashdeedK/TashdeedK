@@ -52,7 +52,7 @@ const tash = {
 };
 ```
 
-- Senior Support & Billing at **Gravel Host** — support and billing, 30–40 tickets a day
+- Senior Support & Billing Specialist at **Gravel Host**
 - Co-founder of **Tsumira Fine Jewellery** — e-commerce for Bangladesh (COD, BDT)
 - BCSE student at **IUBAT**
 - I build things I actually use: a Minecraft bot, a Paper plugin, a home Minecraft server, a Flutter app
