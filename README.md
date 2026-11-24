@@ -59,7 +59,7 @@ Senior support & billing specialist who builds the things he uses — a store, a
 - [x] Tsumira — live at tsumira.shop
 - [x] Segs — v10.7.2 running on OrewaServer
 - [ ] Little Moments — Slice 2 pushed, in testing
-- [x] mcfy — paused, handover written
+- [x] mcfy — live and working well
 - [x] Portfolio v2 — Figma frontend complete
 
 ---
@@ -106,7 +106,7 @@ Senior support & billing specialist who builds the things he uses — a store, a
 | --- | --- | --- | --- |
 | **Tsumira** | Fine jewellery e-commerce — COD, Bangladesh | Node · Express · MySQL | Live — [tsumira.shop](https://tsumira.shop) |
 | **Segs** | Mineflayer bot — sorts storage, builds schematics | Node · Mineflayer | Active — [repo](https://github.com/TashdeedK/Segs-Minecraft-Bot) |
-| **mcfy** | Spotify Soundbox plugin for Paper | Java | Paused |
+| **mcfy** | Spotify Soundbox plugin + companion mod for Paper | Java | Live |
 | **Little Moments** | Private memories app for friends | Flutter | In testing |
 | **OrewaServer** | Home Paper 26.3 server | Docker · Tailscale | Live |
 
