@@ -19,6 +19,8 @@
     from your real GitHub activity every time someone opens your profile.
     Never edit them.
   - STATUS: one bold-label line per fact. Add a line, change a value.
+    Every line ends with <br> — GitHub joins plain lines into one
+    paragraph otherwise (that is what broke the layout on 2026-11-24).
   - SYSTEMS: one line per project with a status glyph.
     ● live/active · ◐ in progress · ○ paused
   - LOADOUT: one skillicons.dev image. Learning something new? Add its
@@ -56,21 +58,21 @@ Senior support & billing specialist who builds the things he uses — a store, a
 <!-- MODULE: STATUS -->
 ## STATUS
 
-**CALLSIGN** — OrewaSegs
-**ROLE** — Senior Support & Billing Specialist · Gravel Host
-**VENTURE** — Co-founder · Tsumira Fine Jewellery
-**STUDY** — BCSE · IUBAT
-**BASE** — Dhaka, Bangladesh
-**LEARNING** — Java · Flutter / Dart
+**CALLSIGN** — OrewaSegs<br>
+**ROLE** — Senior Support & Billing Specialist · Gravel Host<br>
+**VENTURE** — Co-founder · Tsumira Fine Jewellery<br>
+**STUDY** — BCSE · IUBAT<br>
+**BASE** — Dhaka, Bangladesh<br>
+**LEARNING** — Java · Flutter / Dart<br>
 **LANGUAGES** — English · Bangla · Hindi · Urdu
 
 <!-- MODULE: SYSTEMS -->
 ## SYSTEMS
 
-● **Tsumira** — LIVE · [tsumira.shop](https://tsumira.shop)
-● **Minecraft bot** — v10.7.2 · HOBBY
-● **mcfy** — v0.9.0 · LIVE
-◐ **Little Moments** — Slice 2 · CLOSED HOBBY
+● **Tsumira** — LIVE · [tsumira.shop](https://tsumira.shop)<br>
+● **Minecraft bot** — v10.7.2 · HOBBY<br>
+● **mcfy** — v0.9.0 · LIVE<br>
+◐ **Little Moments** — Slice 2 · CLOSED HOBBY<br>
 ● **OrewaServer** — LIVE · HOBBY
 
 ---
